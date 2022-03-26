@@ -1,0 +1,28 @@
+.useritem {
+  margin: 14px 0;
+  padding: 0 10px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 73px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+
+  font-weight: 400;
+  font-size: 11px;
+
+  &__text {
+    color: black;
+    span {
+      color: #a3a3a3;
+    }
+  }
+
+  .more {
+    cursor: pointer;
+    float: right;
+    color: #4b51ef;
+    font-weight: 400;
+    font-size: 12px;
+  }
+}

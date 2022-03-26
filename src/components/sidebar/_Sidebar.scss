@@ -1,0 +1,19 @@
+.sidebar {
+  width: 18.6%;
+  padding: 35px 2.44%;
+  display: flex;
+  flex-direction: column;
+  background-color: #bdbdbd;
+
+  &__item {
+    display: flex;
+    padding: 5px 15px;
+    margin: 10px 0;
+    color: white;
+    background-color: #4b51ef;
+    border-radius: 5px;
+    &:hover {
+        cursor:pointer;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.myinput {
+    display: flex;
+    flex-direction: column;
+   width: 211px;
+   margin: 10px 0;
+
+
+   &__input {
+    padding: 5px 10px;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+   }
+}
