@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import { useDispatch } from "react-redux";
 import {useNavigate} from "react-router-dom"
 import { IUser } from "../types/types";
 
@@ -8,8 +7,6 @@ interface UserItemProps {
 }
 
 const UserItem: FC<UserItemProps> = ({item}) => {
-
-  const dispatch = useDispatch()
   const navigate = useNavigate()
   return (
       <div className="useritem">

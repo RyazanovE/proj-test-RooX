@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import { setFetchArr } from "./components/store/reducers/fetchArrReducer";
-import { useDispatch } from "react-redux";
 import Sidebar from "./components/sidebar/Sidebar";
 import MyRouter from "../src/components/router/MyRouter";
 
